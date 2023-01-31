@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a14fe956fa.js" crossorigin="anonymous"></script>
+    <!-- Tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Customize Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                    fontFamily: {
+                        manrope: ['Manrope', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+
+<body>
+    <!-- Header and Banner Section -->
+    <header
+        class="sm:flex-col md:flex-row lg:flex lg:justify-between items-center py-20 px-3 container max-w-7xl mx-auto">
+        <!-- header content -->
+        <div class="pl-0">
+            <h1 class="text-7xl font-[manrope] font-bold ">It's good</h1>
+            <h1 class="text-7xl font-[manrope] font-bold ">tea time at The</h1>
+            <h1 class="text-7xl font-[manrope] font-bold ">Tea House</h1>
+
+            <p class="pt-7 text-lg font-[manrope] text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum</p>
+            <p class="pb-7 text-lg font-[manrope] text-[#777777]">Satisfaction To Your Taste Buds.</p>
+
+            <button
+                class="text-2xl text-white font-light justify-center items-center py-4 px-5 rounded-md flex bg-gradient-to-r from-[#FF8938] to-[#FF0000] hover:from-[#FF0000] hover:to-[#FF8938]">
+                Explore More <img class="pl-2 -mb-1" src="images/arrow.png" alt=""></button>
+        </div>
+        <!-- header Banner -->
+
+        <div class="flex-col justify-start items-end">
+            <div class="relative overflow-visible">
+                <img class="md:mt-20" src="images/banner.png" alt="">
+                <!-- </div> -->
+                <div
+                    class="py-7 px-8 flex justify-center items-center  absolute bg-white bottom-5 left-32 rounded-lg shadow-lg">
+                    <i class="fa-solid fa-star text-yellow-300"></i>
+                    <div>
+                        <h3>5.00</h3>
+                        <p>Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <!-- Product description -->
+        <div class="px-3 flex container max-w-7xl mx-auto">
+            <div class="grid grid-rows-3 grid-cols-4 gap-3">
+                <!-- Image -->
+                <div class="bg-gray-600 col-span-2">1</div>
+                <div class="bg-orange-400  px-9 py-11 row-span-2 col-span-2">
+                    <img src="images/fresh-1.png" alt="">
+                </div>
+                <div class="bg-green-600 px-9 py-11 row-span-2 col-span-2">
+                    <img src="images/fresh-2.png" alt="">
+                </div>
+                <div class="bg-violet-700 col-span-2">4</div>
+
+            </div>
+
+            <div>
+                <!-- description -->
+
+            </div>
+
+        </div>
+    </main>
+
+</body>
+
+</html>
